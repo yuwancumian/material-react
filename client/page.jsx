@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-import Pageleft from './components/pageleft.jsx';
+import Home from './components/home.jsx';
 import Pageright from './components/pageright.jsx';
 
 
@@ -11,8 +11,7 @@ class Page extends React.Component {
     render() {
         return (
         	<div className="wrapper">
-        		<Pageleft />
-        		<Pageright />
+        		<Home />
         	</div>
         )
     }
