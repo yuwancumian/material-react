@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router';
+import Navbar from './navbar.jsx';
 
 class About extends React.Component {
     constructor(props) {
@@ -9,9 +10,6 @@ class About extends React.Component {
         return (
         	<div className="col-xs-2">
         		<h1>this is about</h1>
-        		<Link to ="/">home</Link>
-        		<Link to ="/about">about</Link>
-        		<Link to = "/product/">product</Link>
         	</div>
         );
     }
